@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inštalácia Kamerových Systémov a Alarmov</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="hikvision-logo.png" alt="Hikvision" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Domov</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sluzby">Služby</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#novinky">Novinky</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontakt">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Najlepšie Kamerové Systémy a Alarmy</h1>
+            <p class="lead">Inštalácia kamerových systémov Hikvision a alarmov AXPro</p>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="sluzby" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Kamerové Systémy Hikvision</h2>
+                    <p>Poskytujeme profesionálnu inštaláciu a konfiguráciu kamerových systémov Hikvision pre maximálnu bezpečnosť vášho majetku.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Alarmy AXPro</h2>
+                    <p>Naše alarmové systémy AXPro zabezpečia váš domov alebo firmu proti neoprávnenému vstupu a iným nebezpečenstvám.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="novinky" class="bg-light py-5">
+        <div class="container">
+            <h2>Novinky</h2>
+            <div id="news-feed">
+                <!-- Dynamický obsah noviniek sa načíta sem -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontakt" class="bg-light py-5">
+        <div class="container">
+            <h2>Kontaktujte Nás</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Meno</label>
+                    <input type="text" class="form-control" id="name" placeholder="Vaše meno">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Váš email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Správa</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Vaša správa"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Odoslať</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
