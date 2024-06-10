@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #4B4B4B;
+}
+
+header {
+    background-color: #C8102E;
+}
+
+header .display-4 {
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+section {
+    margin: 2em 0;
+}
+
+nav a.nav-link {
+    font-size: 1.1em;
+}
+
+#news-feed {
+    background: #FFF;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
